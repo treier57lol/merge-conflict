@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+}
+
+.page {
+    margin: 0 8em;
+}
+
+.bottom-margin {
+    margin-bottom: 1em;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tulp-vasak {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
+    align-items: flex-start;
+}
+.tulp-parem {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+.lehed {
+    display: flex;
+    gap: 2em;
+}
+.socials {
+    display: flex;
+    gap: 2em;
+}
+.jimmy {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
